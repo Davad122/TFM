@@ -107,13 +107,13 @@ Para usar el servidor MCP con Claude AI, configura el archivo de configuración 
 
 ### ⚖️ AVISO LEGAL IMPORTANTE
 
-> **Cualquier distribución ilegal del contenido de este repositorio privado será perseguida legalmente hasta las últimas consecuencias.**
+> **Cualquier distribución ilegal del contenido de este repositorio será perseguida legalmente hasta las últimas consecuencias.**
 
 Este material está protegido por **derechos de autor** y constituye **propiedad intelectual** del autor. Su uso está limitado exclusivamente a:
 
 ✅ **Permitido:**
 - Evaluación académica por el tribunal del TFM
-- Consulta de referencia con autorización previa  
+- Consulta de referencia  
 - Fines educativos no comerciales (con cita obligatoria)
 
 ❌ **Prohibido:**
