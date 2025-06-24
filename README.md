@@ -89,6 +89,7 @@ Para usar el servidor MCP con Claude AI, configura el archivo de configuración 
     }
   }
 }
+```
 
 ### 🤖 Funciones Disponibles via MCP
 
