@@ -1,0 +1,905 @@
+{
+  "horizon_1": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_1"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Aggregate_day_1.pkl",
+      "horizon": "1"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Fridge_day_1.pkl",
+      "horizon": "1"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Chest_Freezer_day_1.pkl",
+      "horizon": "1"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_1.pkl",
+      "horizon": "1"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Tumble_Dryer_day_1.pkl",
+      "horizon": "1"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_1.pkl",
+      "horizon": "1"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Dishwasher_day_1.pkl",
+      "horizon": "1"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_1"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Computer_Site_day_1.pkl",
+      "horizon": "1"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Television_Site_day_1.pkl",
+      "horizon": "1"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_1"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Electric_Heater_day_1.pkl",
+      "horizon": "1"
+    }
+  },
+  "horizon_2": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_2"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Aggregate_day_2.pkl",
+      "horizon": "2"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Fridge_day_2.pkl",
+      "horizon": "2"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Chest_Freezer_day_2.pkl",
+      "horizon": "2"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_2.pkl",
+      "horizon": "2"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Tumble_Dryer_day_2.pkl",
+      "horizon": "2"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_2.pkl",
+      "horizon": "2"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Dishwasher_day_2.pkl",
+      "horizon": "2"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_2"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Computer_Site_day_2.pkl",
+      "horizon": "2"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Television_Site_day_2.pkl",
+      "horizon": "2"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_2"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Electric_Heater_day_2.pkl",
+      "horizon": "2"
+    }
+  },
+  "horizon_3": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_3"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Aggregate_day_3.pkl",
+      "horizon": "3"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Fridge_day_3.pkl",
+      "horizon": "3"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Chest_Freezer_day_3.pkl",
+      "horizon": "3"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_3.pkl",
+      "horizon": "3"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Tumble_Dryer_day_3.pkl",
+      "horizon": "3"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_3.pkl",
+      "horizon": "3"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Dishwasher_day_3.pkl",
+      "horizon": "3"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_3"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Computer_Site_day_3.pkl",
+      "horizon": "3"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Television_Site_day_3.pkl",
+      "horizon": "3"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_3"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Electric_Heater_day_3.pkl",
+      "horizon": "3"
+    }
+  },
+  "horizon_4": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_4"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Aggregate_day_4.pkl",
+      "horizon": "4"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Fridge_day_4.pkl",
+      "horizon": "4"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Chest_Freezer_day_4.pkl",
+      "horizon": "4"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_4.pkl",
+      "horizon": "4"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Tumble_Dryer_day_4.pkl",
+      "horizon": "4"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_4.pkl",
+      "horizon": "4"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Dishwasher_day_4.pkl",
+      "horizon": "4"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_4"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Computer_Site_day_4.pkl",
+      "horizon": "4"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Television_Site_day_4.pkl",
+      "horizon": "4"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_4"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Electric_Heater_day_4.pkl",
+      "horizon": "4"
+    }
+  },
+  "horizon_5": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_5"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Aggregate_day_5.pkl",
+      "horizon": "5"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Fridge_day_5.pkl",
+      "horizon": "5"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Chest_Freezer_day_5.pkl",
+      "horizon": "5"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_5.pkl",
+      "horizon": "5"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Tumble_Dryer_day_5.pkl",
+      "horizon": "5"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_5.pkl",
+      "horizon": "5"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Dishwasher_day_5.pkl",
+      "horizon": "5"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_5"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Computer_Site_day_5.pkl",
+      "horizon": "5"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Television_Site_day_5.pkl",
+      "horizon": "5"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_5"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Electric_Heater_day_5.pkl",
+      "horizon": "5"
+    }
+  },
+  "horizon_6": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_6"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Aggregate_day_6.pkl",
+      "horizon": "6"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Fridge_day_6.pkl",
+      "horizon": "6"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "Lasso",
+      "model_file": "model_Chest_Freezer_day_6.pkl",
+      "horizon": "6"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_6.pkl",
+      "horizon": "6"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Tumble_Dryer_day_6.pkl",
+      "horizon": "6"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_6.pkl",
+      "horizon": "6"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Dishwasher_day_6.pkl",
+      "horizon": "6"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_6"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Computer_Site_day_6.pkl",
+      "horizon": "6"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Television_Site_day_6.pkl",
+      "horizon": "6"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_6"
+      ],
+      "model_name": "XGBoost",
+      "model_file": "model_Electric_Heater_day_6.pkl",
+      "horizon": "6"
+    }
+  },
+  "horizon_7": {
+    "Aggregate": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg_rolling_7",
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_lag_7"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Aggregate_day_7.pkl",
+      "horizon": "7"
+    },
+    "Fridge": {
+      "features": [
+        "Fridge_rolling_7_mean"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Fridge_day_7.pkl",
+      "horizon": "7"
+    },
+    "Chest Freezer": {
+      "features": [
+        "Chest Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Chest_Freezer_day_7.pkl",
+      "horizon": "7"
+    },
+    "Upright Freezer": {
+      "features": [
+        "Upright Freezer_rolling_7_mean"
+      ],
+      "model_name": "LinearRegression",
+      "model_file": "model_Upright_Freezer_day_7.pkl",
+      "horizon": "7"
+    },
+    "Tumble Dryer": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Tumble_Dryer_day_7.pkl",
+      "horizon": "7"
+    },
+    "Washing Machine": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Washing_Machine_day_7.pkl",
+      "horizon": "7"
+    },
+    "Dishwasher": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ],
+      "model_name": "Ridge",
+      "model_file": "model_Dishwasher_day_7.pkl",
+      "horizon": "7"
+    },
+    "Computer Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_7"
+      ],
+      "model_name": "RandomForest",
+      "model_file": "model_Computer_Site_day_7.pkl",
+      "horizon": "7"
+    },
+    "Television Site": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Television_Site_day_7.pkl",
+      "horizon": "7"
+    },
+    "Electric Heater": {
+      "features": [
+        "day_of_week",
+        "month",
+        "tavg",
+        "tavg_rolling_7",
+        "tavg_rolling_30",
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_7"
+      ],
+      "model_name": "GradientBoosting",
+      "model_file": "model_Electric_Heater_day_7.pkl",
+      "horizon": "7"
+    }
+  }
+}

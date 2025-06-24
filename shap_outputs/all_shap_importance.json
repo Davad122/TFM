@@ -1,0 +1,467 @@
+{
+    "Aggregate_1": {
+        "day_of_week": 188.64415329865383,
+        "month": 348.9150333268034,
+        "tavg_rolling_7": 566.0598074818126,
+        "Aggregate_rolling_7_mean": 704.4238469263621,
+        "Aggregate_rolling_7_std": 1423.5952991094312,
+        "Aggregate_lag_1": 1253.2678141289598
+    },
+    "Fridge_1": {
+        "Fridge_rolling_7_mean": 55.99517577664379
+    },
+    "Chest Freezer_1": {
+        "Chest Freezer_rolling_7_mean": 103.51567535109974
+    },
+    "Upright Freezer_1": {
+        "Upright Freezer_rolling_7_mean": 53.053534274221526
+    },
+    "Tumble Dryer_1": {
+        "day_of_week": 9.08391866770555,
+        "month": 9.482866582695173,
+        "tavg": 4.321987995666033,
+        "tavg_rolling_7": 11.512062384508296,
+        "tavg_rolling_30": 11.649142814741708,
+        "Tumble Dryer_rolling_7_mean": 8.00937411943268,
+        "Tumble Dryer_lag_14": 4.5243445823984425
+    },
+    "Washing Machine_1": {
+        "day_of_week": 26.57039400233375,
+        "month": 0.3142204011149055,
+        "tavg": 52.946139157358836,
+        "tavg_rolling_7": 26.192206483268894,
+        "tavg_rolling_30": 29.811185499122423,
+        "Washing Machine_rolling_7_mean": 16.9844041989014,
+        "Washing Machine_lag_15": 2.3207989786720478,
+        "Washing Machine_lag_17": 20.01902687595074
+    },
+    "Dishwasher_1": {
+        "day_of_week": 0.4034759385813756,
+        "month": 15.03534770082843,
+        "tavg": 17.244319452989867,
+        "tavg_rolling_7": 1.022108182624707,
+        "tavg_rolling_30": 15.60679804969404,
+        "Dishwasher_rolling_7_mean": 8.05590331712463,
+        "Dishwasher_lag_3": 28.06778305034996,
+        "Dishwasher_lag_6": 25.28788626126069,
+        "Dishwasher_lag_27": 11.4823439003071
+    },
+    "Television Site_1": {
+        "day_of_week": 6.292565861160989,
+        "month": 1.8658629413731012,
+        "tavg": 11.406233293866805,
+        "tavg_rolling_7": 12.519869992282961,
+        "tavg_rolling_30": 3.3038381873715115,
+        "Television Site_rolling_7_mean": 50.124168378876014,
+        "Television Site_lag_1": 6.816562963017703,
+        "Television Site_lag_2": 7.238048010748068,
+        "Television Site_lag_3": 9.356081551371979,
+        "Television Site_lag_4": 14.709408463770389
+    },
+    "Electric Heater_1": {
+        "day_of_week": 58.61758537235448,
+        "month": 18.026307907918582,
+        "tavg": 161.8922674904727,
+        "tavg_rolling_7": 104.47289150048485,
+        "tavg_rolling_30": 59.02387062353858,
+        "Electric Heater_rolling_7_mean": 812.8851867314797,
+        "Electric Heater_lag_1": 1077.57739377613
+    },
+    "Fridge_2": {
+        "Fridge_rolling_7_mean": 4.713494263842179
+    },
+    "Chest Freezer_2": {
+        "Chest Freezer_rolling_7_mean": 104.30447314569702
+    },
+    "Upright Freezer_2": {
+        "Upright Freezer_rolling_7_mean": 54.11223179738299
+    },
+    "Tumble Dryer_2": {
+        "day_of_week": 12.999282741765624,
+        "month": 1.215771719946387,
+        "tavg": 6.076607180256494,
+        "tavg_rolling_7": 12.218727997783203,
+        "tavg_rolling_30": 13.558349897797356,
+        "Tumble Dryer_rolling_7_mean": 1.4358002839990345,
+        "Tumble Dryer_lag_14": 0.4410397739800965
+    },
+    "Washing Machine_2": {
+        "day_of_week": 11.248051991444363,
+        "month": 0.2907735918108205,
+        "tavg": 39.540185842581096,
+        "tavg_rolling_7": 0.21093546260533763,
+        "tavg_rolling_30": 8.827456932133163,
+        "Washing Machine_rolling_7_mean": 28.430391454668033,
+        "Washing Machine_lag_15": 37.620844913477086,
+        "Washing Machine_lag_17": 14.58545664719105
+    },
+    "Dishwasher_2": {
+        "day_of_week": 15.185667424417522,
+        "month": 26.33301280920239,
+        "tavg": 6.696663630099638,
+        "tavg_rolling_7": 55.404042001039144,
+        "tavg_rolling_30": 73.91307527508506,
+        "Dishwasher_rolling_7_mean": 63.02527813826114,
+        "Dishwasher_lag_3": 52.7421045661169,
+        "Dishwasher_lag_6": 9.459872025907863,
+        "Dishwasher_lag_27": 4.946044109964889
+    },
+    "Television Site_2": {
+        "day_of_week": 5.830307251596667,
+        "month": 2.0966077560121534,
+        "tavg": 4.512845699746648,
+        "tavg_rolling_7": 10.30288711013445,
+        "tavg_rolling_30": 7.91522074109563,
+        "Television Site_rolling_7_mean": 4.813929088079032,
+        "Television Site_lag_1": 9.65280788124393,
+        "Television Site_lag_2": 3.688819068731155,
+        "Television Site_lag_3": 4.750415322826305,
+        "Television Site_lag_4": 7.275152143772163
+    },
+    "Electric Heater_2": {
+        "day_of_week": 29.140448977381734,
+        "month": 60.33929873016435,
+        "tavg": 61.92482474036607,
+        "tavg_rolling_7": 30.69131871997074,
+        "tavg_rolling_30": 168.57641780410353,
+        "Electric Heater_rolling_7_mean": 1388.5764815932196,
+        "Electric Heater_lag_2": 509.9789692170853
+    },
+    "Aggregate_3": {
+        "day_of_week": 170.81414585654312,
+        "month": 742.1994603231371,
+        "tavg_rolling_7": 1078.8020471891195,
+        "Aggregate_rolling_7_mean": 1160.4134227492198,
+        "Aggregate_rolling_7_std": 564.7411984072071,
+        "Aggregate_lag_3": 1067.8638526834395
+    },
+    "Fridge_3": {
+        "Fridge_rolling_7_mean": 14.021323883850224
+    },
+    "Chest Freezer_3": {
+        "Chest Freezer_rolling_7_mean": 102.21503954910953
+    },
+    "Upright Freezer_3": {
+        "Upright Freezer_rolling_7_mean": 51.16633158915968
+    },
+    "Tumble Dryer_3": {
+        "day_of_week": 3.237509410076571,
+        "month": 4.277212340222945,
+        "tavg": 1.6320241354013691,
+        "tavg_rolling_7": 1.8860544267470092,
+        "tavg_rolling_30": 6.381269935419478,
+        "Tumble Dryer_rolling_7_mean": 7.284862281771191,
+        "Tumble Dryer_lag_14": 4.7578208636891
+    },
+    "Washing Machine_3": {
+        "day_of_week": 27.485439479573852,
+        "month": 11.04499046126134,
+        "tavg": 7.52420531182194,
+        "tavg_rolling_7": 23.979577632477252,
+        "tavg_rolling_30": 16.03251822096592,
+        "Washing Machine_rolling_7_mean": 32.13714164297103,
+        "Washing Machine_lag_15": 15.116774058125802,
+        "Washing Machine_lag_17": 24.236823087757823
+    },
+    "Dishwasher_3": {
+        "day_of_week": 28.771357974319105,
+        "month": 69.059279594082,
+        "tavg": 55.62401943693466,
+        "tavg_rolling_7": 52.74800576326637,
+        "tavg_rolling_30": 86.09715910179558,
+        "Dishwasher_rolling_7_mean": 70.03926641970797,
+        "Dishwasher_lag_3": 66.3038145728299,
+        "Dishwasher_lag_6": 20.176615282603187,
+        "Dishwasher_lag_27": 48.166861058898704
+    },
+    "Computer Site_3": {
+        "day_of_week": 0.6492190668099432,
+        "month": 7.751900036547327,
+        "tavg": 4.350782905422885,
+        "tavg_rolling_7": 3.6536507464850687,
+        "tavg_rolling_30": 5.765660748585516,
+        "Computer Site_rolling_7_mean": 18.972401894463925,
+        "Computer Site_lag_3": 1.3968519244031739
+    },
+    "Television Site_3": {
+        "day_of_week": 4.470944265406824,
+        "month": 5.238996547295359,
+        "tavg": 2.316559600345629,
+        "tavg_rolling_7": 4.466011330240613,
+        "tavg_rolling_30": 14.366742582684928,
+        "Television Site_rolling_7_mean": 6.5954816094705,
+        "Television Site_lag_1": 4.640494066286439,
+        "Television Site_lag_2": 1.031759365367103,
+        "Television Site_lag_3": 5.0449359290745095,
+        "Television Site_lag_4": 1.0082486711499523
+    },
+    "Electric Heater_3": {
+        "day_of_week": 16.165943927965476,
+        "month": 111.72912928257684,
+        "tavg": 193.5009321594581,
+        "tavg_rolling_7": 108.39861567815585,
+        "tavg_rolling_30": 255.14055058454616,
+        "Electric Heater_rolling_7_mean": 2251.3282967305295,
+        "Electric Heater_lag_3": 503.78975361284085
+    },
+    "Aggregate_4": {
+        "day_of_week": 89.83972731319118,
+        "month": 494.90860476994027,
+        "tavg_rolling_7": 1555.450502361574,
+        "Aggregate_rolling_7_mean": 3142.00758981493,
+        "Aggregate_rolling_7_std": 1188.1032444760376,
+        "Aggregate_lag_4": 935.6321439317865
+    },
+    "Fridge_4": {
+        "Fridge_rolling_7_mean": 341.7274211451202
+    },
+    "Chest Freezer_4": {
+        "Chest Freezer_rolling_7_mean": 99.23977930497259
+    },
+    "Upright Freezer_4": {
+        "Upright Freezer_rolling_7_mean": 44.79629735636145
+    },
+    "Tumble Dryer_4": {
+        "day_of_week": 3.6031411661258903,
+        "month": 2.8293045021445757,
+        "tavg": 16.013760420698734,
+        "tavg_rolling_7": 13.913145417239429,
+        "tavg_rolling_30": 3.571012303541334,
+        "Tumble Dryer_rolling_7_mean": 2.4031885667049004,
+        "Tumble Dryer_lag_14": 1.0207626313058633
+    },
+    "Washing Machine_4": {
+        "day_of_week": 24.128299246442474,
+        "month": 2.7650737658501066,
+        "tavg": 40.059702689026636,
+        "tavg_rolling_7": 63.69677552110851,
+        "tavg_rolling_30": 9.337682723769849,
+        "Washing Machine_rolling_7_mean": 20.152849403246595,
+        "Washing Machine_lag_15": 20.28433064188985,
+        "Washing Machine_lag_17": 13.54045270388278
+    },
+    "Dishwasher_4": {
+        "day_of_week": 46.37116756717775,
+        "month": 36.78008939145388,
+        "tavg": 7.3967102948718235,
+        "tavg_rolling_7": 50.977292033213985,
+        "tavg_rolling_30": 78.55454258973478,
+        "Dishwasher_rolling_7_mean": 24.304572867375796,
+        "Dishwasher_lag_3": 29.631874659491785,
+        "Dishwasher_lag_6": 30.462754601162835,
+        "Dishwasher_lag_27": 11.441158624589724
+    },
+    "Computer Site_4": {
+        "day_of_week": 1.2471160945651998,
+        "month": 7.928143255523796,
+        "tavg": 0.48735643565409187,
+        "tavg_rolling_7": 5.556052107742889,
+        "tavg_rolling_30": 4.421534088526795,
+        "Computer Site_rolling_7_mean": 20.298121240412303,
+        "Computer Site_lag_4": 4.724063647407416
+    },
+    "Television Site_4": {
+        "day_of_week": 7.386197859617015,
+        "month": 3.8222082901752272,
+        "tavg": 12.097398961067615,
+        "tavg_rolling_7": 13.720620495142775,
+        "tavg_rolling_30": 15.930276214873855,
+        "Television Site_rolling_7_mean": 3.5259985224478076,
+        "Television Site_lag_1": 4.456478196596301,
+        "Television Site_lag_2": 4.664999550070039,
+        "Television Site_lag_3": 3.726389082023887,
+        "Television Site_lag_4": 8.710331552012526
+    },
+    "Electric Heater_4": {
+        "day_of_week": 27.664913976167085,
+        "month": 254.53775216439652,
+        "tavg": 148.56368626040788,
+        "tavg_rolling_7": 917.9423107999119,
+        "tavg_rolling_30": 281.23479095814685,
+        "Electric Heater_rolling_7_mean": 1256.3596418496195,
+        "Electric Heater_lag_4": 205.8939981347041
+    },
+    "Aggregate_5": {
+        "day_of_week": 225.50861933124125,
+        "month": 392.4352462993331,
+        "tavg_rolling_7": 1738.3262784533874,
+        "Aggregate_rolling_7_mean": 2015.8886293199514,
+        "Aggregate_rolling_7_std": 797.7634069127225,
+        "Aggregate_lag_5": 402.8135361705358
+    },
+    "Fridge_5": {
+        "Fridge_rolling_7_mean": 4.852240748592746
+    },
+    "Chest Freezer_5": {
+        "Chest Freezer_rolling_7_mean": 99.04352097019286
+    },
+    "Upright Freezer_5": {
+        "Upright Freezer_rolling_7_mean": 45.67272746502648
+    },
+    "Tumble Dryer_5": {
+        "day_of_week": 18.462604331610216,
+        "month": 7.023747220168524,
+        "tavg": 6.609199973609594,
+        "tavg_rolling_7": 7.874837365380167,
+        "tavg_rolling_30": 8.975597678825373,
+        "Tumble Dryer_rolling_7_mean": 3.154160709998054,
+        "Tumble Dryer_lag_14": 3.532994393054217
+    },
+    "Washing Machine_5": {
+        "day_of_week": 21.8969708257965,
+        "month": 0.6385878298997805,
+        "tavg": 65.8011074647362,
+        "tavg_rolling_7": 71.86587572016803,
+        "tavg_rolling_30": 23.850670164984017,
+        "Washing Machine_rolling_7_mean": 21.638255025356667,
+        "Washing Machine_lag_15": 22.83831622759097,
+        "Washing Machine_lag_17": 3.143895224909828
+    },
+    "Dishwasher_5": {
+        "day_of_week": 8.869447836757159,
+        "month": 28.66851606413289,
+        "tavg": 1.1780020008122043,
+        "tavg_rolling_7": 31.608604264348497,
+        "tavg_rolling_30": 69.89001625427065,
+        "Dishwasher_rolling_7_mean": 44.913911177173446,
+        "Dishwasher_lag_3": 16.912948476922068,
+        "Dishwasher_lag_6": 4.5854574771231205,
+        "Dishwasher_lag_27": 8.923790524378736
+    },
+    "Electric Heater_5": {
+        "day_of_week": 44.899141126466574,
+        "month": 109.22341963473002,
+        "tavg": 90.51248183695824,
+        "tavg_rolling_7": 1.6411644401693226,
+        "tavg_rolling_30": 226.05685292080463,
+        "Electric Heater_rolling_7_mean": 2759.653082707784,
+        "Electric Heater_lag_5": 1353.163735741059
+    },
+    "Aggregate_6": {
+        "day_of_week": 324.7858892284656,
+        "month": 1231.031706774796,
+        "tavg_rolling_7": 1445.912984206723,
+        "Aggregate_rolling_7_mean": 2596.245620723426,
+        "Aggregate_rolling_7_std": 1152.9393305670983,
+        "Aggregate_lag_6": 587.0526484610521
+    },
+    "Fridge_6": {
+        "Fridge_rolling_7_mean": 363.104499652375
+    },
+    "Chest Freezer_6": {
+        "Chest Freezer_rolling_7_mean": 99.59663415719054
+    },
+    "Upright Freezer_6": {
+        "Upright Freezer_rolling_7_mean": 49.065470439175314
+    },
+    "Tumble Dryer_6": {
+        "day_of_week": 10.261700407609906,
+        "month": 7.909860521137248,
+        "tavg": 1.0822865925249947,
+        "tavg_rolling_7": 14.34667510069799,
+        "tavg_rolling_30": 12.767775968255908,
+        "Tumble Dryer_rolling_7_mean": 1.4308667511589719,
+        "Tumble Dryer_lag_14": 0.20962068659074176
+    },
+    "Washing Machine_6": {
+        "day_of_week": 23.850091306141497,
+        "month": 2.6312531638084393,
+        "tavg": 1.0251492995648193,
+        "tavg_rolling_7": 31.551309144272555,
+        "tavg_rolling_30": 8.430042397211093,
+        "Washing Machine_rolling_7_mean": 18.760895562097705,
+        "Washing Machine_lag_15": 19.065729840657163,
+        "Washing Machine_lag_17": 21.513664572702243
+    },
+    "Dishwasher_6": {
+        "day_of_week": 31.396592499603443,
+        "month": 53.337463607610545,
+        "tavg": 42.06143704471538,
+        "tavg_rolling_7": 29.16163643012914,
+        "tavg_rolling_30": 99.53824601592437,
+        "Dishwasher_rolling_7_mean": 5.1368613855222165,
+        "Dishwasher_lag_3": 6.826673327725426,
+        "Dishwasher_lag_6": 11.793849716190575,
+        "Dishwasher_lag_27": 14.462222792302684
+    },
+    "Television Site_6": {
+        "day_of_week": 5.876689734809368,
+        "month": 2.531244543669137,
+        "tavg": 24.899189599016275,
+        "tavg_rolling_7": 10.26114069415547,
+        "tavg_rolling_30": 4.574158607560902,
+        "Television Site_rolling_7_mean": 5.160877722905408,
+        "Television Site_lag_1": 4.71259751877921,
+        "Television Site_lag_2": 4.668135865022889,
+        "Television Site_lag_3": 5.533404897211251,
+        "Television Site_lag_4": 7.714092451903983
+    },
+    "Electric Heater_6": {
+        "day_of_week": 41.311870779267466,
+        "month": 78.09198146935277,
+        "tavg": 279.80997720843897,
+        "tavg_rolling_7": 428.88946018304836,
+        "tavg_rolling_30": 452.7032793206954,
+        "Electric Heater_rolling_7_mean": 1548.999708292845,
+        "Electric Heater_lag_6": 135.80050787215492
+    },
+    "Aggregate_7": {
+        "day_of_week": 204.74906955419806,
+        "month": 847.2820825592679,
+        "tavg_rolling_7": 1942.8288966798318,
+        "Aggregate_rolling_7_mean": 2278.5264675001304,
+        "Aggregate_rolling_7_std": 989.9876764810325,
+        "Aggregate_lag_7": 729.0313231411642
+    },
+    "Fridge_7": {
+        "Fridge_rolling_7_mean": 468.2675919936276
+    },
+    "Chest Freezer_7": {
+        "Chest Freezer_rolling_7_mean": 102.51535148043153
+    },
+    "Upright Freezer_7": {
+        "Upright Freezer_rolling_7_mean": 63.352442232470786
+    },
+    "Tumble Dryer_7": {
+        "day_of_week": 0.527550628307875,
+        "month": 6.405289664033595,
+        "tavg": 11.313709292252462,
+        "tavg_rolling_7": 20.127417505750657,
+        "tavg_rolling_30": 8.80854770802877,
+        "Tumble Dryer_rolling_7_mean": 5.17213333094866,
+        "Tumble Dryer_lag_14": 1.1727725510602407
+    },
+    "Washing Machine_7": {
+        "day_of_week": 0.6986413677354721,
+        "month": 7.343539224803426,
+        "tavg": 33.09372407975822,
+        "tavg_rolling_7": 22.7991526177578,
+        "tavg_rolling_30": 32.036431345324395,
+        "Washing Machine_rolling_7_mean": 4.292866961615437,
+        "Washing Machine_lag_15": 8.164863290287991,
+        "Washing Machine_lag_17": 30.278505092276614
+    },
+    "Dishwasher_7": {
+        "day_of_week": 14.34664915146323,
+        "month": 48.04436066316937,
+        "tavg": 38.32979396130689,
+        "tavg_rolling_7": 3.483118992444868,
+        "tavg_rolling_30": 78.18482293623603,
+        "Dishwasher_rolling_7_mean": 14.0810191512954,
+        "Dishwasher_lag_3": 28.555160434441582,
+        "Dishwasher_lag_6": 16.25087227127244,
+        "Dishwasher_lag_27": 47.21786944897426
+    },
+    "Television Site_7": {
+        "day_of_week": 12.651830915750244,
+        "month": 2.786142530577147,
+        "tavg": 9.169515309387492,
+        "tavg_rolling_7": 14.194788441167153,
+        "tavg_rolling_30": 21.294540166687582,
+        "Television Site_rolling_7_mean": 5.536176396251892,
+        "Television Site_lag_1": 8.153067949170282,
+        "Television Site_lag_2": 12.810416599913847,
+        "Television Site_lag_3": 9.700492266875267,
+        "Television Site_lag_4": 8.734641212075951
+    }
+}

@@ -1,0 +1,960 @@
+{
+  "training_date": "2025-06-23T13:29:53.948795",
+  "appliances": [
+    "Aggregate",
+    "Fridge",
+    "Chest Freezer",
+    "Upright Freezer",
+    "Tumble Dryer",
+    "Washing Machine",
+    "Dishwasher",
+    "Computer Site",
+    "Television Site",
+    "Electric Heater"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "is_stable": [
+    "Fridge",
+    "Chest Freezer",
+    "Upright Freezer"
+  ],
+  "recommendations": {
+    "Aggregate": {
+      "appliance": "Aggregate",
+      "significant_lags": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30
+      ],
+      "category": "aggregate",
+      "features_created": [
+        "Aggregate_rolling_7_mean",
+        "Aggregate_rolling_7_std",
+        "Aggregate_rolling_14_mean",
+        "Aggregate_lag_1",
+        "Aggregate_lag_2",
+        "Aggregate_lag_3",
+        "Aggregate_lag_4",
+        "Aggregate_lag_5",
+        "Aggregate_lag_6",
+        "Aggregate_lag_7"
+      ]
+    },
+    "Fridge": {
+      "appliance": "Fridge",
+      "significant_lags": [],
+      "category": "stable",
+      "features_created": [
+        "Fridge_rolling_7_mean"
+      ]
+    },
+    "Chest Freezer": {
+      "appliance": "Chest Freezer",
+      "significant_lags": [],
+      "category": "stable",
+      "features_created": [
+        "Chest Freezer_rolling_7_mean"
+      ]
+    },
+    "Upright Freezer": {
+      "appliance": "Upright Freezer",
+      "significant_lags": [],
+      "category": "stable",
+      "features_created": [
+        "Upright Freezer_rolling_7_mean"
+      ]
+    },
+    "Tumble Dryer": {
+      "appliance": "Tumble Dryer",
+      "significant_lags": [
+        14
+      ],
+      "category": "sporadic",
+      "features_created": [
+        "Tumble Dryer_rolling_7_mean",
+        "Tumble Dryer_lag_14"
+      ]
+    },
+    "Washing Machine": {
+      "appliance": "Washing Machine",
+      "significant_lags": [
+        15,
+        17
+      ],
+      "category": "sporadic",
+      "features_created": [
+        "Washing Machine_rolling_7_mean",
+        "Washing Machine_lag_15",
+        "Washing Machine_lag_17"
+      ]
+    },
+    "Dishwasher": {
+      "appliance": "Dishwasher",
+      "significant_lags": [
+        3,
+        6,
+        27
+      ],
+      "category": "sporadic",
+      "features_created": [
+        "Dishwasher_rolling_7_mean",
+        "Dishwasher_lag_3",
+        "Dishwasher_lag_6",
+        "Dishwasher_lag_27"
+      ]
+    },
+    "Computer Site": {
+      "appliance": "Computer Site",
+      "significant_lags": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        28
+      ],
+      "category": "regular",
+      "features_created": [
+        "Computer Site_rolling_7_mean",
+        "Computer Site_lag_1",
+        "Computer Site_lag_2",
+        "Computer Site_lag_3",
+        "Computer Site_lag_4",
+        "Computer Site_lag_5",
+        "Computer Site_lag_6",
+        "Computer Site_lag_7"
+      ]
+    },
+    "Television Site": {
+      "appliance": "Television Site",
+      "significant_lags": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "category": "sporadic",
+      "features_created": [
+        "Television Site_rolling_7_mean",
+        "Television Site_lag_1",
+        "Television Site_lag_2",
+        "Television Site_lag_3",
+        "Television Site_lag_4"
+      ]
+    },
+    "Electric Heater": {
+      "appliance": "Electric Heater",
+      "significant_lags": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "category": "regular",
+      "features_created": [
+        "Electric Heater_rolling_7_mean",
+        "Electric Heater_lag_1",
+        "Electric Heater_lag_2",
+        "Electric Heater_lag_3",
+        "Electric Heater_lag_4",
+        "Electric Heater_lag_5",
+        "Electric Heater_lag_6",
+        "Electric Heater_lag_7"
+      ]
+    }
+  },
+  "feature_importance": {
+    "Aggregate_1": {
+      "day_of_week": 0.0016180893695693155,
+      "month": 0.3455152569977249,
+      "tavg_rolling_7": 0.02429444378896013,
+      "Aggregate_rolling_7_mean": 0.13975352656067946,
+      "Aggregate_rolling_7_std": 0.3895897957878353,
+      "Aggregate_lag_1": 0.09922888749523093
+    },
+    "Fridge_1": {
+      "Fridge_rolling_7_mean": 1.0
+    },
+    "Tumble Dryer_1": {
+      "day_of_week": 0.10122384031411881,
+      "month": 0.0207951532650073,
+      "tavg": 0.08919007269886678,
+      "tavg_rolling_7": 0.2907956108760311,
+      "tavg_rolling_30": 0.2571581985655672,
+      "Tumble Dryer_rolling_7_mean": 0.10933160174033628,
+      "Tumble Dryer_lag_14": 0.13150552254007258
+    },
+    "Computer Site_1": {
+      "day_of_week": 0.0748762962252626,
+      "month": 0.04437914827192906,
+      "tavg": 0.12625900026044098,
+      "tavg_rolling_7": 0.12324546153637284,
+      "tavg_rolling_30": 0.13258846780040406,
+      "Computer Site_rolling_7_mean": 0.39542988719917166,
+      "Computer Site_lag_1": 0.10322173870641861
+    },
+    "Aggregate_2": {
+      "day_of_week": 0.03973141879936422,
+      "month": 0.042330792720661495,
+      "tavg_rolling_7": 0.22481417469101966,
+      "Aggregate_rolling_7_mean": 0.47479847159934147,
+      "Aggregate_rolling_7_std": 0.11184334193837625,
+      "Aggregate_lag_2": 0.10648180025123696
+    },
+    "Computer Site_2": {
+      "day_of_week": 0.0811030522241935,
+      "month": 0.05354270733734964,
+      "tavg": 0.12927534423715464,
+      "tavg_rolling_7": 0.1286719524623273,
+      "tavg_rolling_30": 0.18621443620325642,
+      "Computer Site_rolling_7_mean": 0.3118876286124874,
+      "Computer Site_lag_2": 0.109304878923231
+    },
+    "Television Site_2": {
+      "day_of_week": 0.06388861789202163,
+      "month": 0.04090113372602695,
+      "tavg": 0.08248411221673452,
+      "tavg_rolling_7": 0.1228329514440085,
+      "tavg_rolling_30": 0.14156108315288254,
+      "Television Site_rolling_7_mean": 0.11689620692167896,
+      "Television Site_lag_1": 0.13642513033875883,
+      "Television Site_lag_2": 0.10430082301991508,
+      "Television Site_lag_3": 0.09574220841393871,
+      "Television Site_lag_4": 0.0949677328740342
+    },
+    "Aggregate_3": {
+      "day_of_week": "0.24863444",
+      "month": "0.017401183",
+      "tavg_rolling_7": "0.022896966",
+      "Aggregate_rolling_7_mean": "0.088726714",
+      "Aggregate_rolling_7_std": "0.019736404",
+      "Aggregate_lag_3": "0.6026043"
+    },
+    "Dishwasher_3": {
+      "day_of_week": "0.04759113",
+      "month": "0.08570315",
+      "tavg": "0.06421671",
+      "tavg_rolling_7": "0.089863345",
+      "tavg_rolling_30": "0.083235405",
+      "Dishwasher_rolling_7_mean": "0.14483301",
+      "Dishwasher_lag_3": "0.18280593",
+      "Dishwasher_lag_6": "0.1349506",
+      "Dishwasher_lag_27": "0.16680072"
+    },
+    "Aggregate_4": {
+      "day_of_week": 0.003282808462827597,
+      "month": 0.015460374033726274,
+      "tavg_rolling_7": 0.038122535543958606,
+      "Aggregate_rolling_7_mean": 0.6125002944051758,
+      "Aggregate_rolling_7_std": 0.14055670863139397,
+      "Aggregate_lag_4": 0.19007727892291762
+    },
+    "Fridge_4": {
+      "Fridge_rolling_7_mean": "1.0"
+    },
+    "Electric Heater_4": {
+      "day_of_week": "0.0040641367",
+      "month": "0.020131426",
+      "tavg": "0.03854837",
+      "tavg_rolling_7": "0.12694353",
+      "tavg_rolling_30": "0.20723224",
+      "Electric Heater_rolling_7_mean": "0.5736627",
+      "Electric Heater_lag_4": "0.029417641"
+    },
+    "Aggregate_5": {
+      "day_of_week": "0.03812835",
+      "month": "0.13064286",
+      "tavg_rolling_7": "0.43485904",
+      "Aggregate_rolling_7_mean": "0.20843227",
+      "Aggregate_rolling_7_std": "0.12889892",
+      "Aggregate_lag_5": "0.059038553"
+    },
+    "Computer Site_5": {
+      "day_of_week": 0.07626962422819937,
+      "month": 0.05002073403547814,
+      "tavg": 0.15072095551700818,
+      "tavg_rolling_7": 0.11558892541982199,
+      "tavg_rolling_30": 0.24555061074177906,
+      "Computer Site_rolling_7_mean": 0.24834424696841143,
+      "Computer Site_lag_5": 0.11350490308930186
+    },
+    "Television Site_5": {
+      "day_of_week": 0.07896768026041612,
+      "month": 0.03600081019309074,
+      "tavg": 0.10215278298373286,
+      "tavg_rolling_7": 0.1228725427624443,
+      "tavg_rolling_30": 0.12319986192480743,
+      "Television Site_rolling_7_mean": 0.10053204281100979,
+      "Television Site_lag_1": 0.10940802190840872,
+      "Television Site_lag_2": 0.11329782301065659,
+      "Television Site_lag_3": 0.100875154916022,
+      "Television Site_lag_4": 0.11269327922941152
+    },
+    "Aggregate_6": {
+      "day_of_week": 0.06808363577217746,
+      "month": 0.055569297672947535,
+      "tavg_rolling_7": 0.06751675263431724,
+      "Aggregate_rolling_7_mean": 0.6594319047016731,
+      "Aggregate_rolling_7_std": 0.030165406678256037,
+      "Aggregate_lag_6": 0.11923300254062881
+    },
+    "Fridge_6": {
+      "Fridge_rolling_7_mean": "1.0"
+    },
+    "Computer Site_6": {
+      "day_of_week": 0.09401019355917695,
+      "month": 0.06592124151749575,
+      "tavg": 0.1236863907404811,
+      "tavg_rolling_7": 0.11637730962314055,
+      "tavg_rolling_30": 0.2717519765625566,
+      "Computer Site_rolling_7_mean": 0.21095317796645896,
+      "Computer Site_lag_6": 0.11729971003069012
+    },
+    "Television Site_6": {
+      "day_of_week": 0.06883325415556925,
+      "month": 0.03879569954561142,
+      "tavg": 0.1460513180140667,
+      "tavg_rolling_7": 0.1113280430702308,
+      "tavg_rolling_30": 0.11056181186033916,
+      "Television Site_rolling_7_mean": 0.10130677949578154,
+      "Television Site_lag_1": 0.11950938026177153,
+      "Television Site_lag_2": 0.09829054057583536,
+      "Television Site_lag_3": 0.10304256806416362,
+      "Television Site_lag_4": 0.10228060495663066
+    },
+    "Electric Heater_6": {
+      "day_of_week": "0.0048728813",
+      "month": "0.04301941",
+      "tavg": "0.039680578",
+      "tavg_rolling_7": "0.053802177",
+      "tavg_rolling_30": "0.2177007",
+      "Electric Heater_rolling_7_mean": "0.6054279",
+      "Electric Heater_lag_6": "0.035496306"
+    },
+    "Aggregate_7": {
+      "day_of_week": 0.041383042868417305,
+      "month": 0.007540530713447066,
+      "tavg_rolling_7": 0.07660911161303284,
+      "Aggregate_rolling_7_mean": 0.1172164987324878,
+      "Aggregate_rolling_7_std": 0.2695257346802955,
+      "Aggregate_lag_7": 0.4877250813923194
+    },
+    "Fridge_7": {
+      "Fridge_rolling_7_mean": 1.0
+    },
+    "Computer Site_7": {
+      "day_of_week": 0.08812121180731125,
+      "month": 0.041145672976605846,
+      "tavg": 0.1148227147530403,
+      "tavg_rolling_7": 0.12521535660860578,
+      "tavg_rolling_30": 0.2948438139439365,
+      "Computer Site_rolling_7_mean": 0.19827137681202686,
+      "Computer Site_lag_7": 0.13757985309847348
+    },
+    "Television Site_7": {
+      "day_of_week": 0.08405541114027543,
+      "month": 0.029925760291159915,
+      "tavg": 0.10155920740660757,
+      "tavg_rolling_7": 0.10941611657224044,
+      "tavg_rolling_30": 0.1894079496265087,
+      "Television Site_rolling_7_mean": 0.04990299984523895,
+      "Television Site_lag_1": 0.08291505841432359,
+      "Television Site_lag_2": 0.14443790091009534,
+      "Television Site_lag_3": 0.11469042192603518,
+      "Television Site_lag_4": 0.09368917386751499
+    },
+    "Electric Heater_7": {
+      "day_of_week": 0.0020500264358189113,
+      "month": 0.031169493650007245,
+      "tavg": 0.022653631396504677,
+      "tavg_rolling_7": 0.09995740596029183,
+      "tavg_rolling_30": 0.23587349726323822,
+      "Electric Heater_rolling_7_mean": 0.5723465699897857,
+      "Electric Heater_lag_7": 0.03594937530435342
+    }
+  },
+  "evaluation_results": {
+    "1": {
+      "Aggregate": {
+        "mae": 2886.567821844174,
+        "rmse": 4219.465494838955,
+        "r2": -0.19423445454066202,
+        "cv_score": 7094.626442116112,
+        "model_name": "GradientBoosting"
+      },
+      "Fridge": {
+        "mae": 140.63239292846538,
+        "rmse": 394.49798464726507,
+        "r2": -0.06642820737875987,
+        "cv_score": 97.48419437613543,
+        "model_name": "GradientBoosting"
+      },
+      "Chest Freezer": {
+        "mae": 211.73706252681004,
+        "rmse": 906.806472507446,
+        "r2": -0.0572783878018861,
+        "cv_score": 63.53316563747437,
+        "model_name": "LinearRegression"
+      },
+      "Upright Freezer": {
+        "mae": 287.0231944358572,
+        "rmse": 1260.8281382023142,
+        "r2": -0.019119469228106256,
+        "cv_score": 95.63554686423029,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 47.07968185396036,
+        "rmse": 59.618535735129285,
+        "r2": -1.0635204567595244,
+        "cv_score": 78.65844346449114,
+        "model_name": "GradientBoosting"
+      },
+      "Washing Machine": {
+        "mae": 305.70263772126305,
+        "rmse": 389.4109002823599,
+        "r2": -0.07926722641416406,
+        "cv_score": 251.7026877575276,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 354.0073189809714,
+        "rmse": 412.322170118604,
+        "r2": -0.006107201237641302,
+        "cv_score": 398.25797706485383,
+        "model_name": "Ridge"
+      },
+      "Computer Site": {
+        "mae": 64.28670748910677,
+        "rmse": 88.1466720185146,
+        "r2": -0.07226899217617988,
+        "cv_score": 41.63270022875817,
+        "model_name": "RandomForest"
+      },
+      "Television Site": {
+        "mae": 96.97613598040364,
+        "rmse": 187.0531929561619,
+        "r2": 0.012659057851948097,
+        "cv_score": 92.83162855030102,
+        "model_name": "Lasso"
+      },
+      "Electric Heater": {
+        "mae": 811.6854183426036,
+        "rmse": 1428.3129894660271,
+        "r2": 0.6048392695194648,
+        "cv_score": 965.2810262249781,
+        "model_name": "Ridge"
+      }
+    },
+    "2": {
+      "Aggregate": {
+        "mae": 2873.982016911765,
+        "rmse": 3946.9903155799166,
+        "r2": 0.050042443474021314,
+        "cv_score": 2955.5379494199356,
+        "model_name": "RandomForest"
+      },
+      "Fridge": {
+        "mae": 130.47453861193105,
+        "rmse": 367.7156667834077,
+        "r2": -0.0009597627598922909,
+        "cv_score": 91.28091046637557,
+        "model_name": "Lasso"
+      },
+      "Chest Freezer": {
+        "mae": 213.06541920543953,
+        "rmse": 904.5341878279494,
+        "r2": -0.052219792421980715,
+        "cv_score": 64.44271388699426,
+        "model_name": "LinearRegression"
+      },
+      "Upright Freezer": {
+        "mae": 288.3195362353221,
+        "rmse": 1259.5277691702167,
+        "r2": -0.016937693658788167,
+        "cv_score": 99.62384024377735,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 50.78792149461824,
+        "rmse": 106.12519396631646,
+        "r2": -0.1491700502089346,
+        "cv_score": 78.0665486366418,
+        "model_name": "Ridge"
+      },
+      "Washing Machine": {
+        "mae": 319.1729883692822,
+        "rmse": 404.02156064509217,
+        "r2": -0.07123788664926578,
+        "cv_score": 255.85770566289403,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 345.8857624536902,
+        "rmse": 389.55211312497266,
+        "r2": 0.016550174396776862,
+        "cv_score": 337.1289413179053,
+        "model_name": "LinearRegression"
+      },
+      "Computer Site": {
+        "mae": 64.68386132897602,
+        "rmse": 89.08639930361925,
+        "r2": -0.07048528672694188,
+        "cv_score": 44.11620239379086,
+        "model_name": "RandomForest"
+      },
+      "Television Site": {
+        "mae": 93.79797810457514,
+        "rmse": 188.15115359188147,
+        "r2": -0.003533016819920798,
+        "cv_score": 97.38090863562093,
+        "model_name": "RandomForest"
+      },
+      "Electric Heater": {
+        "mae": 976.8030217425021,
+        "rmse": 1655.3411868084402,
+        "r2": 0.520587003211495,
+        "cv_score": 1354.180330549819,
+        "model_name": "LinearRegression"
+      }
+    },
+    "3": {
+      "Aggregate": {
+        "mae": 3279.84795592065,
+        "rmse": 4436.355208158608,
+        "r2": -0.2650563017549956,
+        "cv_score": 3269.404559330959,
+        "model_name": "XGBoost"
+      },
+      "Fridge": {
+        "mae": 260.3836500266431,
+        "rmse": 413.18807115972004,
+        "r2": -0.2636572897777911,
+        "cv_score": 514.990878213726,
+        "model_name": "Lasso"
+      },
+      "Chest Freezer": {
+        "mae": 212.11505217558204,
+        "rmse": 902.3664831880815,
+        "r2": -0.04782623810748965,
+        "cv_score": 66.02261415996776,
+        "model_name": "LinearRegression"
+      },
+      "Upright Freezer": {
+        "mae": 287.8311670634818,
+        "rmse": 1259.0409685621592,
+        "r2": -0.016390076665604658,
+        "cv_score": 102.81644617424222,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 45.53083645392518,
+        "rmse": 55.29785551176653,
+        "r2": -0.774918809046454,
+        "cv_score": 70.49765278934771,
+        "model_name": "Lasso"
+      },
+      "Washing Machine": {
+        "mae": 309.7294037286637,
+        "rmse": 389.3059338453465,
+        "r2": -0.047591733084545895,
+        "cv_score": 266.02976440125,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 334.9649855358823,
+        "rmse": 441.7475518458809,
+        "r2": -0.24084076210811722,
+        "cv_score": 388.2031979017511,
+        "model_name": "XGBoost"
+      },
+      "Computer Site": {
+        "mae": 61.6070412508974,
+        "rmse": 87.76905645008742,
+        "r2": -0.01255860647839202,
+        "cv_score": 45.16575447309808,
+        "model_name": "Ridge"
+      },
+      "Television Site": {
+        "mae": 96.1492920188477,
+        "rmse": 185.98287355976842,
+        "r2": 0.030144321694658083,
+        "cv_score": 99.3485747764565,
+        "model_name": "Ridge"
+      },
+      "Electric Heater": {
+        "mae": 1072.0045641038207,
+        "rmse": 1703.0626535875558,
+        "r2": 0.45345695287332866,
+        "cv_score": 1696.208757010608,
+        "model_name": "LinearRegression"
+      }
+    },
+    "4": {
+      "Aggregate": {
+        "mae": 3107.2332701840114,
+        "rmse": 4701.397565662246,
+        "r2": -0.6576112922427069,
+        "cv_score": 4501.292804712302,
+        "model_name": "GradientBoosting"
+      },
+      "Fridge": {
+        "mae": 174.15084971442465,
+        "rmse": 436.6983874876158,
+        "r2": -0.411306681891928,
+        "cv_score": 113.87144906596265,
+        "model_name": "XGBoost"
+      },
+      "Chest Freezer": {
+        "mae": 211.745360554678,
+        "rmse": 901.0734798978243,
+        "r2": -0.044821946490813946,
+        "cv_score": 74.08388283207655,
+        "model_name": "LinearRegression"
+      },
+      "Upright Freezer": {
+        "mae": 285.13658503785916,
+        "rmse": 1256.8997030670798,
+        "r2": -0.013025958869394172,
+        "cv_score": 102.7720302503545,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 49.39877718609292,
+        "rmse": 59.48281492225013,
+        "r2": -1.0537187426549677,
+        "cv_score": 81.38722189004598,
+        "model_name": "Ridge"
+      },
+      "Washing Machine": {
+        "mae": 305.56000129155564,
+        "rmse": 388.0895415512569,
+        "r2": -0.05500287983468821,
+        "cv_score": 264.74290432823085,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 355.7853459206597,
+        "rmse": 400.45391117104595,
+        "r2": 0.011764989778667911,
+        "cv_score": 335.09126462924615,
+        "model_name": "LinearRegression"
+      },
+      "Computer Site": {
+        "mae": 59.71100011756733,
+        "rmse": 85.53981976126421,
+        "r2": -0.025221462302077002,
+        "cv_score": 45.41659147402494,
+        "model_name": "Ridge"
+      },
+      "Television Site": {
+        "mae": 96.63944022325788,
+        "rmse": 186.73654738689063,
+        "r2": 0.01623355433369822,
+        "cv_score": 96.61936222110542,
+        "model_name": "Ridge"
+      },
+      "Electric Heater": {
+        "mae": 561.1675756104553,
+        "rmse": 1252.229646254508,
+        "r2": 0.6128411293892246,
+        "cv_score": 1731.9924283675214,
+        "model_name": "XGBoost"
+      }
+    },
+    "5": {
+      "Aggregate": {
+        "mae": 3113.88021484375,
+        "rmse": 4375.720413961845,
+        "r2": -0.5302709308334987,
+        "cv_score": 3634.9046534096715,
+        "model_name": "XGBoost"
+      },
+      "Fridge": {
+        "mae": 139.2873461227337,
+        "rmse": 381.23852217226295,
+        "r2": 0.002477877609443624,
+        "cv_score": 90.71151222079641,
+        "model_name": "Lasso"
+      },
+      "Chest Freezer": {
+        "mae": 211.57030241162343,
+        "rmse": 901.0482994478217,
+        "r2": -0.04545411203096994,
+        "cv_score": 75.59978874102585,
+        "model_name": "Lasso"
+      },
+      "Upright Freezer": {
+        "mae": 282.8845508013742,
+        "rmse": 1255.9190132871288,
+        "r2": -0.011487487454784118,
+        "cv_score": 104.4893072544013,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 57.04474355849991,
+        "rmse": 70.14937021023479,
+        "r2": -1.8563562707880115,
+        "cv_score": 86.74088957963578,
+        "model_name": "Ridge"
+      },
+      "Washing Machine": {
+        "mae": 313.04625854316936,
+        "rmse": 395.85363641941586,
+        "r2": -0.09964823360966224,
+        "cv_score": 262.1725586789567,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 371.8639693844357,
+        "rmse": 417.0860527598977,
+        "r2": 0.0025559776293335723,
+        "cv_score": 356.556185414008,
+        "model_name": "Ridge"
+      },
+      "Computer Site": {
+        "mae": 66.9495441993464,
+        "rmse": 93.94898717378926,
+        "r2": -0.2366012277715286,
+        "cv_score": 45.879182916666664,
+        "model_name": "RandomForest"
+      },
+      "Television Site": {
+        "mae": 100.50383014705884,
+        "rmse": 191.51185914202014,
+        "r2": -0.03237801000123364,
+        "cv_score": 96.03801267156862,
+        "model_name": "RandomForest"
+      },
+      "Electric Heater": {
+        "mae": 1063.0378475943126,
+        "rmse": 1679.1753025905045,
+        "r2": 0.2509313130276377,
+        "cv_score": 2198.797121742088,
+        "model_name": "Ridge"
+      }
+    },
+    "6": {
+      "Aggregate": {
+        "mae": 3821.1072254961255,
+        "rmse": 5601.699434937767,
+        "r2": -1.4927488904380026,
+        "cv_score": 4713.6492386432565,
+        "model_name": "GradientBoosting"
+      },
+      "Fridge": {
+        "mae": 193.43992004660478,
+        "rmse": 453.3257980381874,
+        "r2": -0.5274845125057115,
+        "cv_score": 118.11576466698739,
+        "model_name": "XGBoost"
+      },
+      "Chest Freezer": {
+        "mae": 211.50605434992005,
+        "rmse": 901.3142301502529,
+        "r2": -0.04647048960979672,
+        "cv_score": 77.26531878954022,
+        "model_name": "Lasso"
+      },
+      "Upright Freezer": {
+        "mae": 282.37086263987527,
+        "rmse": 1256.4412051549577,
+        "r2": -0.01206016195971471,
+        "cv_score": 106.83050527466443,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 59.64633599470887,
+        "rmse": 65.91148039547114,
+        "r2": -1.521217968408683,
+        "cv_score": 89.87904286352406,
+        "model_name": "Ridge"
+      },
+      "Washing Machine": {
+        "mae": 296.6219709176156,
+        "rmse": 381.3824944674713,
+        "r2": -0.020908626524702933,
+        "cv_score": 261.004376656124,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 365.64739813531486,
+        "rmse": 403.5348416158338,
+        "r2": -0.016508716585121874,
+        "cv_score": 346.71464167910216,
+        "model_name": "Ridge"
+      },
+      "Computer Site": {
+        "mae": 64.37341846405229,
+        "rmse": 91.32661178850412,
+        "r2": -0.17804253976292683,
+        "cv_score": 46.96658843954248,
+        "model_name": "RandomForest"
+      },
+      "Television Site": {
+        "mae": 105.20090724400876,
+        "rmse": 193.80322317113178,
+        "r2": -0.05871526919762293,
+        "cv_score": 95.25136365196079,
+        "model_name": "RandomForest"
+      },
+      "Electric Heater": {
+        "mae": 931.6539124865938,
+        "rmse": 1638.5329477276703,
+        "r2": 0.24968996692031087,
+        "cv_score": 2024.7233027212108,
+        "model_name": "XGBoost"
+      }
+    },
+    "7": {
+      "Aggregate": {
+        "mae": 3244.3692391931427,
+        "rmse": 4573.083271068732,
+        "r2": -0.6103436868589625,
+        "cv_score": 6034.015279038117,
+        "model_name": "GradientBoosting"
+      },
+      "Fridge": {
+        "mae": 139.98503273420468,
+        "rmse": 377.4405001192902,
+        "r2": -0.0584358093836026,
+        "cv_score": 517.4359433905225,
+        "model_name": "RandomForest"
+      },
+      "Chest Freezer": {
+        "mae": 214.74126633244148,
+        "rmse": 903.3063783223124,
+        "r2": -0.05083176121632427,
+        "cv_score": 76.35065451829266,
+        "model_name": "LinearRegression"
+      },
+      "Upright Freezer": {
+        "mae": 291.1148144726177,
+        "rmse": 1260.7612497229627,
+        "r2": -0.01849666443947462,
+        "cv_score": 105.49346602777646,
+        "model_name": "LinearRegression"
+      },
+      "Tumble Dryer": {
+        "mae": 58.661470436251626,
+        "rmse": 64.99914338690527,
+        "r2": -1.4525400250744327,
+        "cv_score": 99.49068864221435,
+        "model_name": "Ridge"
+      },
+      "Washing Machine": {
+        "mae": 301.1651250566698,
+        "rmse": 380.88274345904375,
+        "r2": -0.018046226782585162,
+        "cv_score": 260.4959599423454,
+        "model_name": "Ridge"
+      },
+      "Dishwasher": {
+        "mae": 366.8154402996474,
+        "rmse": 412.3639640596934,
+        "r2": -0.06147853278528448,
+        "cv_score": 401.39094284476334,
+        "model_name": "Ridge"
+      },
+      "Computer Site": {
+        "mae": 64.1924499727669,
+        "rmse": 92.82529990664773,
+        "r2": -0.21817391403019082,
+        "cv_score": 48.007762156862746,
+        "model_name": "RandomForest"
+      },
+      "Television Site": {
+        "mae": 102.61776746798392,
+        "rmse": 193.2538689941515,
+        "r2": -0.053564368913156635,
+        "cv_score": 92.52311004444353,
+        "model_name": "GradientBoosting"
+      },
+      "Electric Heater": {
+        "mae": 792.8212862291274,
+        "rmse": 1279.9050502576758,
+        "r2": 0.5125396226579751,
+        "cv_score": 2069.373209752395,
+        "model_name": "GradientBoosting"
+      }
+    }
+  },
+  "data_shape": [
+    510,
+    131
+  ],
+  "data_date_range": {
+    "start": "2013-11-05T00:00:00",
+    "end": "2015-07-03T00:00:00"
+  },
+  "model_structure": "multi_horizon"
+}
