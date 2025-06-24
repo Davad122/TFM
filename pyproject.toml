@@ -1,0 +1,19 @@
+[project]
+name = "mcp-david-tfm"
+version = "0.1.0"
+dependencies = [
+    "httpx",
+    "mcp",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "shap",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "statsmodels"
+]
+
+[project.scripts]
+mcp-david-tfm = "davidElectric:main"
