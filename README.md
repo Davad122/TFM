@@ -10,6 +10,7 @@
 ![AI](https://img.shields.io/badge/AI-Machine%20Learning-orange.svg)
 
 *TFM sobre la creación de un sistema de predicción energética con un servidor MCP para su acceso basado en IA*
+
 *DAVID GONZÁLEZ LABRADA*
 
 </div>
